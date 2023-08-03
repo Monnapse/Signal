@@ -6,8 +6,13 @@
 local signal = {}
 signal.__index = signal
 
+--[=[
+    @class signal
+    @client
+    @server
+    Send signals over scripts easily
+]=]
 export type signal = {}
-
 
 --[=[
     Create a new signal
