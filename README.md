@@ -2,9 +2,9 @@
 Send signals to other scripts
 
 ## Getting Started
-To create a signal do ```signal.new()```
-Once you have your signal you can now add connections for callbacks when your signal is fired to do this ```signal:Connect(callbackevent)```
-Now you can fire your signal ```signal:Fire(YourParameters)```
+To create a signal do ```signal.new()```.
+Once you have your signal you can now add connections for callbacks when your signal is fired to do this ```signal:Connect(callbackevent)```.
+Now you can fire your signal ```signal:Fire(YourParameters)```.
 
 Here is a complete example
 ```
